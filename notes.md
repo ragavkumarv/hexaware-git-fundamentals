@@ -15,7 +15,6 @@
   create mode 100644 cool.py
   ```
 
-- git status
 - git add cool.py
 - git status
 
