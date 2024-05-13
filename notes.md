@@ -28,3 +28,8 @@
 
 - git commit -m "Cool python project started"
 - git status
+- git status -s
+- git log
+  - -p -> patch
+  - -1 -> last commit
+  - --author -> filter by author
