@@ -38,3 +38,4 @@
     - <space> - page down
     - <n> - next match
     - <N> - prev match
+- git alias
