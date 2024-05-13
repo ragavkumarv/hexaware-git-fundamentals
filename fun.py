@@ -7,4 +7,4 @@ def to_lowercase(txt):
 
 
 if __name__ == "__main__":
-    print(to_uppercase("This looks good"))
+    print(to_uppercase("This looks good from master"))
