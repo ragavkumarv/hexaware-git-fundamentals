@@ -2,4 +2,5 @@ def to_uppercase(txt):
     return txt.upper()
 
 
-print(to_uppercase("This looks good"))
+if __name__ == "__main__":
+    print(to_uppercase("This looks good"))
