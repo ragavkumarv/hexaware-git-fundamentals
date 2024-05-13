@@ -53,3 +53,9 @@ git log
   - Edit commit
 - git reset --hard
   - Nuke it
+
+## Branching
+
+- git checkout master
+- git checkout -b feat-INC101-sai-subash-lowercase
+- git merge feat-INC100-uppercase
