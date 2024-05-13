@@ -28,14 +28,28 @@
 - git commit -m "Cool python project started"
 - git status
 - git status -s
-- git log
-  - -p -> patch
-  - -1 -> last commit
+
+## Git Log
+
+git log
+
+- log filter
   - --author -> filter by author
-  - -S -> pick-axe - Search
-  - git log -S<word> -p
-    - /<word> - highlight search
-    - <space> - page down
-    - <n> - next match
-    - <N> - prev match
+  - -1 -> last commit
+- -p -> patch
+- -S -> **pick-axe** - Search
+- git log -S<word> -p
+  - /<word> - highlight search
+  - <space> - page down
+  - <n> - next match
+  - <N> - prev match
 - git alias
+
+## Undo commit
+
+- git revert <commit_id>
+  - history maintain
+- git reset --soft
+  - Edit commit
+- git reset --hard
+  - Nuke it
