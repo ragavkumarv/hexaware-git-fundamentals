@@ -59,3 +59,5 @@ git log
 - git checkout master
 - git checkout -b feat-INC101-sai-subash-lowercase
 - git merge feat-INC100-uppercase
+- git push --set-upstream origin feat-INC102-test
+- git clone <Github URL>
