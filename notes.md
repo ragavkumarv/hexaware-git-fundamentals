@@ -32,3 +32,9 @@
   - -p -> patch
   - -1 -> last commit
   - --author -> filter by author
+  - -S -> pick-axe - Search
+  - git log -S<word> -p
+    - /<word> - highlight search
+    - <space> - page down
+    - <n> - next match
+    - <N> - prev match
