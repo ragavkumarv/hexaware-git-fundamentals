@@ -35,7 +35,7 @@ git log
 
 - log filter
   - --author -> filter by author
-  - -1 -> last commit
+  - -2 -> last commit
 - -p -> patch
 - -S -> **pick-axe** - Search
 - git log -S<word> -p
@@ -50,14 +50,18 @@ git log
 - git revert <commit_id>
   - history maintain
 - git reset --soft
-  - Edit commit
+  - Edit commit - commit will removed
 - git reset --hard
-  - Nuke it
+  - Nuke it - commit will removed
 
 ## Branching
 
 - git checkout master
+  - Switch branches
 - git checkout -b feat-INC101-sai-subash-lowercase
+  - Creating the branch
 - git merge feat-INC100-uppercase
+  - Merging
 - git push --set-upstream origin feat-INC102-test
+  - Publish to github
 - git clone <Github URL>
